@@ -1,0 +1,99 @@
+@media screen and (max-width:1000px) {
+    
+    .main{
+        width: auto;
+    }
+    .container{
+        padding: 0 16px;
+        justify-content: left;
+    }
+    .header-list{
+        font-size: 10%;
+        white-space: nowrap;
+
+    }
+    .mainvisual{
+        height: 200px;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+    .main h3{
+        font-size: 15px;
+    }
+
+    .contents{
+        width: auto;
+        padding: 0 20px;
+        font-size: 13px;
+    }
+    .link{
+        margin: 30px;
+    }
+    .link a{
+        padding: 5px 35px;
+    }
+    footer{
+        padding: 0 16px;
+    }
+    footer p{
+        margin: 0;
+    }
+
+    .iconwrap{
+        position: fixed;
+        top:0;
+        right: 0;
+        background-color: #ffdab9;
+        width: 40px;
+        height: 40px;
+        z-index: 99;
+        
+    }
+    .iconwrap span{
+        border-top: #fff solid 1px;
+        position: absolute;
+        top: 10px;
+        width: 30px;
+        left: 5px;
+    }
+    .iconwrap span:nth-of-type(2){
+        top: 20px;
+    }
+    .iconwrap span:nth-of-type(3){
+        top: 30px;
+    }
+    .header-list{
+        display: block;
+        position: fixed;
+        top: -2px;
+        left: -200px;
+        /* width: 200px; */
+        background-color: #aaa;
+        transition: all 0.4s;
+
+        padding: 3px 10px;
+        z-index: 999;
+    }
+    .header-list li{
+        margin: 0;
+        padding: 10px;
+    }
+    
+    #navswitch{
+        display: none;
+        
+    }
+    #navswitch:checked~.header-list{
+        left: 0;
+        
+    }
+    .slider{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .slick-dots{
+        white-space: nowrap;
+    }
+
+}
