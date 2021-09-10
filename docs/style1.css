@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        font-family: 'Kiwi Maru', serif;
+    }
+    header{
+        background-color:peachpuff;
+        color: white;
+        text-decoration: none;
+        
+       
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+        overflow: hidden;
+    
+        display: flex;
+        justify-content: space-around;
+        
+    
+    }
+    .header-logo{
+        /* float:left; */
+        margin: 0px;
+        vertical-align: middle;
+        line-height: 1;
+       
+    }
+    .header-list{
+       /*  float: right; */
+        list-style: none;
+    
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .header-list li{
+       /*  float:left; */
+        margin-right: 20px;
+    }
+    .header-list a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .main{
+        text-align: center;
+        margin: 0px;
+        color:peachpuff;
+        width: 1000px;
+        margin: auto;
+    }
+    .mainvisual{
+        height: 400px;
+        width: 100%;
+        background-image: url("photo.webp");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .main h2{
+        margin-bottom: 0px;
+        font-size: 28px;
+        color: peachpuff;
+    }
+    .main h3{
+        margin: 0px;
+        font-weight: 400;
+    
+    }
+    .contents{
+       
+        margin: auto;
+        width: 1000px;
+        color: black;
+    }
+    .link{
+        margin: 40px auto;
+        margin-bottom: 60px;
+    
+    }
+    .link a{
+        
+        background-color:peachpuff;
+        padding: 15px 80px;
+        text-decoration:none;
+        color: white;
+    
+    }
+    
+    footer{
+        text-align: center;
+        background-color: peachpuff;
+        margin:0px;
+        padding: 16px;
+        color: white;
+        font-size: small;
+    }
+    #navswitch{
+        display: none;
+    }
+
+    .slider{
+        margin: 100px auto;
+        width: 80%;
+    }
+    .slider img{
+        height: auto;
+        width: 100%;
+    }
+    /*slick setting*/
+    .slick-prev:before,
+    .slick-next:before {
+        color: #000;
+    }
+
+
